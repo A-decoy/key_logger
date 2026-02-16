@@ -17,7 +17,5 @@ sorted_tuples = sorted(key_dict.items(), key=lambda num_key: num_key[1], reverse
 
 sorted_key = dict(sorted_tuples)
 
-print(sorted_key)
-
 for key, value in sorted_key.items():
-    print(f"{key}: {value}")
+    print(f"{key:7}:{value:7}")
